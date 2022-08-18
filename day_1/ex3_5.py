@@ -15,9 +15,8 @@ def solve(input_data):
 
     :rtype: list
     """
-    result = None
-
-
+    result = list(enumerate(input_data,start=1))
+    # print(result)
     return result
 
 

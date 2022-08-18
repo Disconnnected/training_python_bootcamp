@@ -15,7 +15,7 @@ def solve():
     :rtype: list
     """
     list_100 = []
-    for n in range(1,100):
+    for n in range(1,101):
         if (n%3 == 0 and n%5 == 0):
             list_100.append("FizzBuzz")
         elif (n%5 == 0):

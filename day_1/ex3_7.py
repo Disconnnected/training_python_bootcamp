@@ -18,7 +18,7 @@ def solve():
     Lưu ý: Thứ tự tăng dần theo bảng cửu chương
     """
     result = None
-
+    
     return result
 
 
