@@ -29,10 +29,10 @@ def solve(input_data):
 
     chú ý thay đổi trên input_data chứ không dùng trực tiếp data.
     """
-    result = None
-
-
-
+    result = input_data.strip().splitlines()
+    # print(result[1][0])
+    first_letter = [x[0][0] for x in result]
+    print(first_letter)
     return result
 
 
@@ -43,7 +43,7 @@ def main():
     thông điệp
     """
     print(solve(data))
-    print("Result should be Pymi: {}".format(solve("P\nY\nM\nI")))
+    # print("Result should be Pymi: {}".format(solve("P\nY\nM\nI")))
 
 
 if __name__ == "__main__":

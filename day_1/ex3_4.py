@@ -21,8 +21,9 @@ def solve(input_data):
     :param input_data: tên file bất kì
     :rtype: str
     """
-    result = None
-
+    result = input_data.rfind('.')
+    print(f'input_data = {input_data}')
+    print(f'output = {input_data[:result]}')
     return result
 
 

@@ -14,6 +14,17 @@ def solve():
 
     :rtype: list
     """
+    list_100 = []
+    for n in range(1,100):
+        if (n%3 == 0 and n%5 == 0):
+            list_100.append("FizzBuzz")
+        elif (n%5 == 0):
+            list_100.append("Buzz")
+        elif (n%3 == 0 ):
+            list_100.append("Fizz")
+        else:
+            list_100.append(n)
+    print(list_100)
     result = None
 
 

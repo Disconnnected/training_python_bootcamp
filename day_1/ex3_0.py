@@ -15,7 +15,7 @@ def squared(input_data):
     # raise NotImplementedError("Bạn chưa làm bài này")
 
     # Uncomment dòng sau để có kết quả đúng
-    # result = input_data ** 2
+    result = input_data ** 2
     return result
 
 

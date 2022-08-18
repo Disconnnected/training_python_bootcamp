@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-data = 1000
+from unittest import result
+
+
+data = 9
 
 
 def solve(input_data):
@@ -22,14 +25,18 @@ def solve(input_data):
     Hàm có sẵn: bin(10) == '0b1010'
     Hàm có sẵn tạo ra integer từ string: 69 == int('69')
     """
-    result = None
-
+    
+    result = bin(input_data)
+    
     # code here
-
-    return result
+    
+    print(f"input_data = {input_data} ({result})")
+    print(f"output = {result[result.rfind('1'):]}")
+    return result[result.rfind('1'):]
+    
 
 def main():
     print(solve(data))
-
+    
 if __name__ == "__main__":
     main()
