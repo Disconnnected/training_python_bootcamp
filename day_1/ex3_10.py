@@ -14,6 +14,9 @@ Làm thêm tùy chọn:
 - https://projecteuler.net/problem=10
 - https://projecteuler.net/problem=16
 """
+from multiprocessing.sharedctypes import Value
+
+
 data = ([2, 7, 11, 15], 9)
 
 
@@ -25,11 +28,14 @@ def solve(nums, target):
     https://leetcode.com/problems/two-sum/
     """
 
-    result = None
-
-
-    return result
-
+    result = {}
+    for index, value in enumerate(nums):
+        # print(len(nums))
+        sum =  target - value
+        if sum in result:
+            return result[sum,index]
+        
+        result[nums[value]] = index
 
 def main():
     nums, target = data

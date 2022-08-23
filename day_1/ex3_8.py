@@ -12,9 +12,13 @@ def solve(input_data):
     :rtype: bool
     """
 
-    result = None
-
-
+    result = input()
+    palm = " ".join(result.split())
+    # print(palm)
+    if (palm.lower() == palm[::-1].lower()):
+        print("True")
+    else:
+        print("False")
     return result
 
 

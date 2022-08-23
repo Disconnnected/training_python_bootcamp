@@ -11,6 +11,9 @@ Ví dụ:
 """
 
 
+from tracemalloc import start
+
+
 def solve():
     """Trả về list chứa các list là các bộ số thỏa mãn đề bài
 
@@ -21,9 +24,16 @@ def solve():
     """
 
     
-    result = None
-
-
+    result = []
+    # a, b, c = map(int,input("nhập 3 số tự nhiên:").split()) 
+    # for i in range(1,10):
+    #     lst = []
+    #     for j in range(3):
+    #         elemt = i-j
+    #         print(lst)
+    #         if (lst[1] + lst[2]/lst[3] == 10):
+    #             lst.append(elemt)
+    #     result.append(lst)
     return result
 
 

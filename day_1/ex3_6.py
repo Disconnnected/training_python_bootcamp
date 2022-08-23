@@ -36,9 +36,9 @@ def solve(input_data):
     for i in range(1,13): 
         if (i == 2):
             lst_month[i-1] += (28,)
-        elif (i%2 == 1):
+        elif i in [4,6,9,11]:
             lst_month[i-1] += (30,)
-        else:
+        elif i in [1,3,5,7,8,10,12]:
             lst_month[i-1] += (31,)
     # print(lst_month)
 
