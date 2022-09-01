@@ -13,7 +13,10 @@ Làm thêm tùy chọn:
 - https://projecteuler.net/problem=16
 """
 
+from email import message
 import time
+import logging
+from unicodedata import name
 
 
 class ProjectEuler():
@@ -334,3 +337,12 @@ class ProjectEuler():
 euler_answer = ProjectEuler()
 problem = euler_answer.problem_test()
 print(problem)
+
+logging.basicConfig(filename='app.log',
+                    filemode='a', 
+                    # style='{',
+                    # format='{} - {} - {}'.format(name, levelname, message),
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    datefmt=time.strftime("%a, %d %b %Y %H:%M:%S")
+                    )
+logging.warning('This will get logged to a file')
