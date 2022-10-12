@@ -11,3 +11,5 @@ Training Python Bootcamp
 - 1 số bài đã có lời giải. Lời giải này mang tính tham khảo thôi
 - 1 số bài đề bài sai vì chưa test được. cần liên hệ ngay leader để fix
 - nói chung cần gì thì báo tao sớm chứ ko ăn đầu b`
+
+djt me thang giap phi hoang ko lam bai nha
