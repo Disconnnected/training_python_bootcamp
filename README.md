@@ -10,6 +10,4 @@ Training Python Bootcamp
 - Khi làm xong 1 bài thì commit 1  phát. hoặc với bài nào ngắn ngắn thì để nhiều bài commit 1 lần cũng được. Nhưng bài dài hoặc bài khó thì phải commit từng bài
 - 1 số bài đã có lời giải. Lời giải này mang tính tham khảo thôi
 - 1 số bài đề bài sai vì chưa test được. cần liên hệ ngay leader để fix
-- nói chung cần gì thì báo tao sớm chứ ko ăn đầu b`
 
-djt me thang giap phi hoang ko lam bai nha
